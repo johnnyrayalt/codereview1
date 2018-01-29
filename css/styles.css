@@ -1,3 +1,8 @@
+/* Fixed position Name */
+h2.text-info{
+  position: fixed;
+}
+
 /* Reset border radius */
 .card, .jumbotron {
   border-radius: 0 !important;
@@ -23,4 +28,12 @@
 
 p > .text-line {
   text-decoration: line-through;
+}
+
+
+/* Reset fixed name postion */
+@media only screen and (max-width: 728px) {
+  h2.text-info {
+    position:relative;
+  }
 }
