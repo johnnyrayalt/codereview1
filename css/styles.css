@@ -1,0 +1,14 @@
+
+
+/* Footer Styles */
+.footer-custom {
+  min-height:15em;
+}
+
+.footer-custom p{
+  font-size: 50px;
+}
+
+p > .text-line {
+  text-decoration: line-through;
+}
