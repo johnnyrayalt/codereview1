@@ -1,3 +1,9 @@
+/* Reset border radius */
+.card, .jumbotron {
+  border-radius: 0 !important;
+}
+
+/* Portfolio Styles */
 .bg-custom {
   background-color: #0000ff;
 }
